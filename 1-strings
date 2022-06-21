@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#This script prints out numbers one to five on new lines while sending the output to a file named with todays date
+echo "one" > $(date +%Y-%m-%d)-1strings.txt
+echo "two" >> $(date +%Y-%m-%d)-1strings.txt
+echo "three" >> $(date +%Y-%m-%d)-1strings.txt
+echo "four" >> $(date +%Y-%m-%d)-1strings.txt
+echo "five" >> $(date +%Y-%m-%d)-1strings.txt
+
