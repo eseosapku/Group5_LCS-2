@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#asks the user for two numbers and outputs their products
+echo "Enter number1: "
+read number1
+echo "Enter number2: "
+read number2
+
+ans=`expr $number1 \* $number2`
+echo The product of $number1 and $number2 is $ans
